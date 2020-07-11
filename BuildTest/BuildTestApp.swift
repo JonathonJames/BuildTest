@@ -9,9 +9,17 @@ import SwiftUI
 
 @main
 struct BuildTestApp: App {
+
+    init() {
+        UINavigationBar.appearance().backgroundColor = UIColor(named: "primary")
+    }
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                ContentView()
+                .navigationBarTitle("SwiftUI", displayMode: .inline)
+            }
         }
     }
 }
