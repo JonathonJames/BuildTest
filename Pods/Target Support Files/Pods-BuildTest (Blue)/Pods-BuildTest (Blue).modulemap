@@ -1,0 +1,6 @@
+framework module Pods_BuildTest__Blue_ {
+  umbrella header "Pods-BuildTest (Blue)-umbrella.h"
+
+  export *
+  module * { export * }
+}
