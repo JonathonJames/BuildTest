@@ -29,6 +29,10 @@
 		286D3DEE24B9F6F4006CB649 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 286D3DED24B9F6F4006CB649 /* Colors.xcassets */; };
 		286D3DF024B9F705006CB649 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 286D3DEF24B9F705006CB649 /* Colors.xcassets */; };
 		286D3DF224B9F716006CB649 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 286D3DF124B9F716006CB649 /* Colors.xcassets */; };
+		289E3EF024BA01A5007D4D5C /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289E3EEF24BA01A5007D4D5C /* Configuration.swift */; };
+		289E3EF124BA01A5007D4D5C /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289E3EEF24BA01A5007D4D5C /* Configuration.swift */; };
+		289E3EF224BA01A5007D4D5C /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289E3EEF24BA01A5007D4D5C /* Configuration.swift */; };
+		289E3EF324BA01A5007D4D5C /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289E3EEF24BA01A5007D4D5C /* Configuration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +58,6 @@
 		286D3D7B24B9BFFC006CB649 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		286D3D7D24B9BFFD006CB649 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		286D3D8024B9BFFD006CB649 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		286D3D8224B9BFFD006CB649 /* BuildTest (Green)-info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BuildTest (Green)-info.plist"; path = "/Users/jonathon/Documents/Work/Repos/BuildTest/BuildTest/BuildTest (Green)-info.plist"; sourceTree = "<absolute>"; };
 		286D3D8724B9BFFD006CB649 /* BuildTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuildTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		286D3D8B24B9BFFD006CB649 /* BuildTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildTestTests.swift; sourceTree = "<group>"; };
 		286D3D8D24B9BFFD006CB649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -71,9 +74,11 @@
 		286D3DED24B9F6F4006CB649 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		286D3DEF24B9F705006CB649 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		286D3DF124B9F716006CB649 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
-		286D3DF324B9FDB3006CB649 /* BuildTest (Yellow)-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BuildTest (Yellow)-Info.plist"; sourceTree = "<group>"; };
-		286D3DF424B9FDB4006CB649 /* BuildTest (Blue)-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BuildTest (Blue)-Info.plist"; sourceTree = "<group>"; };
-		286D3DF524B9FDB4006CB649 /* BuildTest (Red)-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BuildTest (Red)-Info.plist"; sourceTree = "<group>"; };
+		289E3EEF24BA01A5007D4D5C /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		289E3EF424BA0236007D4D5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		289E3EF524BA024E007D4D5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		289E3EF624BA0259007D4D5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		289E3EF724BA0265007D4D5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,11 +155,8 @@
 			children = (
 				286D3D7924B9BFFC006CB649 /* BuildTestApp.swift */,
 				286D3D7B24B9BFFC006CB649 /* ContentView.swift */,
+				289E3EEF24BA01A5007D4D5C /* Configuration.swift */,
 				286D3DE024B9F0A6006CB649 /* Resources */,
-				286D3D8224B9BFFD006CB649 /* BuildTest (Green)-info.plist */,
-				286D3DF424B9FDB4006CB649 /* BuildTest (Blue)-Info.plist */,
-				286D3DF524B9FDB4006CB649 /* BuildTest (Red)-Info.plist */,
-				286D3DF324B9FDB3006CB649 /* BuildTest (Yellow)-Info.plist */,
 				286D3D7F24B9BFFD006CB649 /* Preview Content */,
 			);
 			path = BuildTest;
@@ -200,6 +202,7 @@
 		286D3DE124B9F0C1006CB649 /* Green */ = {
 			isa = PBXGroup;
 			children = (
+				289E3EF424BA0236007D4D5C /* Info.plist */,
 				286D3D7D24B9BFFD006CB649 /* Assets.xcassets */,
 				286D3DF124B9F716006CB649 /* Colors.xcassets */,
 			);
@@ -209,6 +212,7 @@
 		286D3DE224B9F0D3006CB649 /* Blue */ = {
 			isa = PBXGroup;
 			children = (
+				289E3EF524BA024E007D4D5C /* Info.plist */,
 				286D3DE924B9F134006CB649 /* Assets.xcassets */,
 				286D3DEF24B9F705006CB649 /* Colors.xcassets */,
 			);
@@ -218,6 +222,7 @@
 		286D3DE324B9F0D9006CB649 /* Red */ = {
 			isa = PBXGroup;
 			children = (
+				289E3EF624BA0259007D4D5C /* Info.plist */,
 				286D3DE724B9F114006CB649 /* Assets.xcassets */,
 				286D3DED24B9F6F4006CB649 /* Colors.xcassets */,
 			);
@@ -227,6 +232,7 @@
 		286D3DE424B9F0DE006CB649 /* Yellow */ = {
 			isa = PBXGroup;
 			children = (
+				289E3EF724BA0265007D4D5C /* Info.plist */,
 				286D3DE524B9F0FE006CB649 /* Assets.xcassets */,
 				286D3DEB24B9F6A7006CB649 /* Colors.xcassets */,
 			);
@@ -447,6 +453,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				289E3EF024BA01A5007D4D5C /* Configuration.swift in Sources */,
 				286D3D7C24B9BFFC006CB649 /* ContentView.swift in Sources */,
 				286D3D7A24B9BFFC006CB649 /* BuildTestApp.swift in Sources */,
 			);
@@ -472,6 +479,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				289E3EF124BA01A5007D4D5C /* Configuration.swift in Sources */,
 				286D3DA624B9C28F006CB649 /* ContentView.swift in Sources */,
 				286D3DA724B9C28F006CB649 /* BuildTestApp.swift in Sources */,
 			);
@@ -481,6 +489,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				289E3EF224BA01A5007D4D5C /* Configuration.swift in Sources */,
 				286D3DB324B9C29D006CB649 /* ContentView.swift in Sources */,
 				286D3DB424B9C29D006CB649 /* BuildTestApp.swift in Sources */,
 			);
@@ -490,6 +499,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				289E3EF324BA01A5007D4D5C /* Configuration.swift in Sources */,
 				286D3DC024B9C2B0006CB649 /* ContentView.swift in Sources */,
 				286D3DC124B9C2B0006CB649 /* BuildTestApp.swift in Sources */,
 			);
@@ -632,12 +642,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_SERVER_URL = "https://green.buildtest.com";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"BuildTest/Preview Content\"";
 				DEVELOPMENT_TEAM = XS6M342923;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "BuildTest/$(PRODUCT_NAME)-info.plist";
+				INFOPLIST_FILE = "$(RESOURCES)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -646,6 +657,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.uk.jonathonjamesltd.buildtest.green.debug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "BuildTest (Green) - Debug";
+				RESOURCES = BuildTest/Resources/Green;
+				SERVER_URL = "$(BASE_SERVER_URL)/api/dev";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -656,12 +669,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_SERVER_URL = "https://green.buildtest.com";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"BuildTest/Preview Content\"";
 				DEVELOPMENT_TEAM = XS6M342923;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "BuildTest/$(PRODUCT_NAME)-info.plist";
+				INFOPLIST_FILE = "$(RESOURCES)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -670,6 +684,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.uk.jonathonjamesltd.buildtest.green;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "BuildTest (Green) - Production";
+				RESOURCES = BuildTest/Resources/Green;
+				SERVER_URL = "$(BASE_SERVER_URL)/api";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -764,12 +780,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_SERVER_URL = "https://blue.buildtest.com";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"BuildTest/Preview Content\"";
 				DEVELOPMENT_TEAM = XS6M342923;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "BuildTest/$(PRODUCT_NAME)-info.plist";
+				INFOPLIST_FILE = "$(RESOURCES)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -778,6 +795,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.uk.jonathonjamesltd.buildtest.blue.debug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "BuildTest (Blue) - Debug";
+				RESOURCES = BuildTest/Resources/Blue;
+				SERVER_URL = "$(BASE_SERVER_URL)/api/dev";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -788,12 +807,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_SERVER_URL = "https://blue.buildtest.com";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"BuildTest/Preview Content\"";
 				DEVELOPMENT_TEAM = XS6M342923;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "BuildTest/$(PRODUCT_NAME)-info.plist";
+				INFOPLIST_FILE = "$(RESOURCES)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -802,6 +822,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.uk.jonathonjamesltd.buildtest.blue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "BuildTest (Blue) - Production";
+				RESOURCES = BuildTest/Resources/Blue;
+				SERVER_URL = "$(BASE_SERVER_URL)/api";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -812,12 +834,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_SERVER_URL = "https://yellow.buildtest.com";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"BuildTest/Preview Content\"";
 				DEVELOPMENT_TEAM = XS6M342923;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "BuildTest/$(PRODUCT_NAME)-info.plist";
+				INFOPLIST_FILE = "$(RESOURCES)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -826,6 +849,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.uk.jonathonjamesltd.buildtest.yellow.debug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "BuildTest (Yellow) - Debug";
+				RESOURCES = BuildTest/Resources/Yellow;
+				SERVER_URL = "$(BASE_SERVER_URL)/api/dev";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -836,12 +861,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_SERVER_URL = "https://yellow.buildtest.com";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"BuildTest/Preview Content\"";
 				DEVELOPMENT_TEAM = XS6M342923;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "BuildTest/$(PRODUCT_NAME)-info.plist";
+				INFOPLIST_FILE = "$(RESOURCES)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -850,6 +876,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.uk.jonathonjamesltd.buildtest.yellow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "BuildTest (Yellow) - Production";
+				RESOURCES = BuildTest/Resources/Yellow;
+				SERVER_URL = "$(BASE_SERVER_URL)/api";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -860,12 +888,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_SERVER_URL = "https://red.buildtest.com";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"BuildTest/Preview Content\"";
 				DEVELOPMENT_TEAM = XS6M342923;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "BuildTest/$(PRODUCT_NAME)-info.plist";
+				INFOPLIST_FILE = "$(RESOURCES)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -874,6 +903,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.uk.jonathonjamesltd.buildtest.red.debug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "BuildTest (Red) - Debug";
+				RESOURCES = BuildTest/Resources/Red;
+				SERVER_URL = "$(BASE_SERVER_URL)/api/dev";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -884,12 +915,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_SERVER_URL = "https://red.buildtest.com";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"BuildTest/Preview Content\"";
 				DEVELOPMENT_TEAM = XS6M342923;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "BuildTest/$(PRODUCT_NAME)-info.plist";
+				INFOPLIST_FILE = "$(RESOURCES)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -898,6 +930,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.uk.jonathonjamesltd.buildtest.red;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "BuildTest (Red) - Production";
+				RESOURCES = BuildTest/Resources/Red;
+				SERVER_URL = "$(BASE_SERVER_URL)/api";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -963,12 +997,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_SERVER_URL = "https://green.buildtest.com";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"BuildTest/Preview Content\"";
 				DEVELOPMENT_TEAM = XS6M342923;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "BuildTest/$(PRODUCT_NAME)-info.plist";
+				INFOPLIST_FILE = "$(RESOURCES)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -977,6 +1012,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.uk.jonathonjamesltd.buildtest.green.sit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "BuildTest (Green) - SIT";
+				RESOURCES = BuildTest/Resources/Green;
+				SERVER_URL = "$(BASE_SERVER_URL)/api/sit";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -987,12 +1024,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_SERVER_URL = "https://blue.buildtest.com";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"BuildTest/Preview Content\"";
 				DEVELOPMENT_TEAM = XS6M342923;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "BuildTest/$(PRODUCT_NAME)-info.plist";
+				INFOPLIST_FILE = "$(RESOURCES)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1001,6 +1039,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.uk.jonathonjamesltd.buildtest.blue.sit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "BuildTest (Blue) - SIT";
+				RESOURCES = BuildTest/Resources/Blue;
+				SERVER_URL = "$(BASE_SERVER_URL)/api/sit";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1011,12 +1051,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_SERVER_URL = "https://yellow.buildtest.com";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"BuildTest/Preview Content\"";
 				DEVELOPMENT_TEAM = XS6M342923;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "BuildTest/$(PRODUCT_NAME)-info.plist";
+				INFOPLIST_FILE = "$(RESOURCES)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1025,6 +1066,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.uk.jonathonjamesltd.buildtest.yellow.sit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "BuildTest (Yellow) - SIT";
+				RESOURCES = BuildTest/Resources/Yellow;
+				SERVER_URL = "$(BASE_SERVER_URL)/api/sit";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1035,12 +1078,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_SERVER_URL = "https://red.buildtest.com";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"BuildTest/Preview Content\"";
 				DEVELOPMENT_TEAM = XS6M342923;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "BuildTest/$(PRODUCT_NAME)-info.plist";
+				INFOPLIST_FILE = "$(RESOURCES)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1049,6 +1093,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.uk.jonathonjamesltd.buildtest.red.sit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "BuildTest (Red) - SIT";
+				RESOURCES = BuildTest/Resources/Red;
+				SERVER_URL = "$(BASE_SERVER_URL)/api/sit";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1156,12 +1202,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_SERVER_URL = "https://green.buildtest.com";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"BuildTest/Preview Content\"";
 				DEVELOPMENT_TEAM = XS6M342923;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "BuildTest/$(PRODUCT_NAME)-info.plist";
+				INFOPLIST_FILE = "$(RESOURCES)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1170,6 +1217,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.uk.jonathonjamesltd.buildtest.green.int;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "BuildTest (Green) - INT";
+				RESOURCES = BuildTest/Resources/Green;
+				SERVER_URL = "$(BASE_SERVER_URL)/api/int";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1180,12 +1229,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_SERVER_URL = "https://blue.buildtest.com";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"BuildTest/Preview Content\"";
 				DEVELOPMENT_TEAM = XS6M342923;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "BuildTest/$(PRODUCT_NAME)-info.plist";
+				INFOPLIST_FILE = "$(RESOURCES)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1194,6 +1244,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.uk.jonathonjamesltd.buildtest.blue.int;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "BuildTest (Blue) - INT";
+				RESOURCES = BuildTest/Resources/Blue;
+				SERVER_URL = "$(BASE_SERVER_URL)/api/int";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1204,12 +1256,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_SERVER_URL = "https://yellow.buildtest.com";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"BuildTest/Preview Content\"";
 				DEVELOPMENT_TEAM = XS6M342923;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "BuildTest/$(PRODUCT_NAME)-info.plist";
+				INFOPLIST_FILE = "$(RESOURCES)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1218,6 +1271,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.uk.jonathonjamesltd.buildtest.yellow.int;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "BuildTest (Yellow) - INT";
+				RESOURCES = BuildTest/Resources/Yellow;
+				SERVER_URL = "$(BASE_SERVER_URL)/api/int";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1228,12 +1283,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_SERVER_URL = "https://red.buildtest.com";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"BuildTest/Preview Content\"";
 				DEVELOPMENT_TEAM = XS6M342923;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "BuildTest/$(PRODUCT_NAME)-info.plist";
+				INFOPLIST_FILE = "$(RESOURCES)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1242,6 +1298,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.uk.jonathonjamesltd.buildtest.red.int;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "BuildTest (Red) - INT";
+				RESOURCES = BuildTest/Resources/Red;
+				SERVER_URL = "$(BASE_SERVER_URL)/api/int";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1349,12 +1407,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_SERVER_URL = "https://green.buildtest.com";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"BuildTest/Preview Content\"";
 				DEVELOPMENT_TEAM = XS6M342923;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "BuildTest/$(PRODUCT_NAME)-info.plist";
+				INFOPLIST_FILE = "$(RESOURCES)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1363,6 +1422,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.uk.jonathonjamesltd.buildtest.green.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "BuildTest (Green) - Demo";
+				RESOURCES = BuildTest/Resources/Green;
+				SERVER_URL = "$(BASE_SERVER_URL)/api/demo";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1373,12 +1434,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_SERVER_URL = "https://blue.buildtest.com";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"BuildTest/Preview Content\"";
 				DEVELOPMENT_TEAM = XS6M342923;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "BuildTest/$(PRODUCT_NAME)-info.plist";
+				INFOPLIST_FILE = "$(RESOURCES)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1387,6 +1449,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.uk.jonathonjamesltd.buildtest.blue.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "BuildTest (Blue) - Demo";
+				RESOURCES = BuildTest/Resources/Blue;
+				SERVER_URL = "$(BASE_SERVER_URL)/api/demo";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1397,12 +1461,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_SERVER_URL = "https://yellow.buildtest.com";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"BuildTest/Preview Content\"";
 				DEVELOPMENT_TEAM = XS6M342923;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "BuildTest/$(PRODUCT_NAME)-info.plist";
+				INFOPLIST_FILE = "$(RESOURCES)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1411,6 +1476,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.uk.jonathonjamesltd.buildtest.yellow.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "BuildTest (Yellow) - Demo";
+				RESOURCES = BuildTest/Resources/Yellow;
+				SERVER_URL = "$(BASE_SERVER_URL)/api/demo";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1421,12 +1488,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_SERVER_URL = "https://red.buildtest.com";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"BuildTest/Preview Content\"";
 				DEVELOPMENT_TEAM = XS6M342923;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "BuildTest/$(PRODUCT_NAME)-info.plist";
+				INFOPLIST_FILE = "$(RESOURCES)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1435,6 +1503,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.uk.jonathonjamesltd.buildtest.red.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "BuildTest (Red) - Demo";
+				RESOURCES = BuildTest/Resources/Red;
+				SERVER_URL = "$(BASE_SERVER_URL)/api/demo";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
